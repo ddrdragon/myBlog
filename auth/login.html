@@ -1,0 +1,61 @@
+<html>
+<head> 
+<title>Log in</title> 
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        background-color: cornflowerblue;
+        text-align: center;
+        width: 70%;
+        position: 50px;
+        margin: auto;
+        padding: 25px;
+    }
+    .container input[type=text]{
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .container input[type=password] {
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .container input[type=submit] {
+        width: 80%;
+        height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 20px 0 0;
+    }
+    .container input[type=submit]:hover {
+        background-color: darkcyan;
+    }
+</style>
+
+</head>
+<body>
+    <div class="d">
+        <div class="container">
+        <h1>This is log in page </h1>
+        <form action="login.php" method="post">
+            <label>username:<br></label>
+            <input class="i" type="text" name="username" required="required"> <br>
+            
+            <label>password:<br></label>
+            <input type="password" name="password" required="required"> <br>
+            
+            <input type="submit" value="log in">
+        </form>
+        </div>
+    </div>
+    
+back to <a href="../index.html">front page</a>
+
+
+</body>
+</html>
