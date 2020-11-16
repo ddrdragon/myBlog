@@ -1,0 +1,93 @@
+
+.back {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+
+.mylogin {
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    padding: 0 20px;
+    max-width: 360px;
+    border-radius: 3px;
+}
+
+.mylogin .header {
+    /* border: solid red; */
+    position: relative;
+}
+
+.header .close {
+    /* border: solid; */
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .header .close:hover {
+    cursor: pointer;
+    color: black;
+  }
+
+  .info {
+    /* border: solid; */
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .info label {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .info .input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    padding: 5px 15px;
+  }
+
+  .info .login {
+    background-color: rgb(48, 64, 207);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .info .login:hover {
+    cursor: pointer;
+    background-color:  rgb(141, 149, 221);
+  }
+
+  #wrong {
+    display: none;
+  }
+
+  .footer {
+    padding: 10px;
+    height: 60px;
+    position: relative;
+  }
+ 
+  .animate {
+    animation: myZoom 0.6s;
+  }
+  
+  @keyframes myZoom{
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
